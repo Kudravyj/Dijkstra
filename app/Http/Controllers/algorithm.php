@@ -43,7 +43,7 @@ class algorithm extends Controller
                     if (!$resultSet[$v] && $graph[$u][$v] && $result[$u] != $INT_MAX && $result[$u] + $graph[$u][$v] < $result[$v])
                         $result[$v] = $result[$u] + $graph[$u][$v];
             }
-            return view('welcome', compact('result'));
+            return view('home', compact('result'));
         }
         $graph = array(
             array(0, 4, 0, 0, 0, 0, 0, 8, 0),
