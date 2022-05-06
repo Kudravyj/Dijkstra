@@ -110,8 +110,7 @@ class algorithm extends Controller
                     if (!$resultSet[$v] && $graph[$u][$v] && $result[$u] != $INT_MAX && $result[$u] + $graph[$u][$v] < $result[$v])
                         $result[$v] = $result[$u] + $graph[$u][$v];
             }
-            dd($result);
-            return view('home', compact('result'));
+            return view('custom/custom', compact('result'));
         }
         $graph = array(
             array(0, $data['number2'], 0, $data['number1'], 0, 0, 0, 0, 0),
@@ -125,5 +124,9 @@ class algorithm extends Controller
             array(0, 0, 0, 0, 0, 0, $data['number13'], $data['number12'], 0)
         );
         return Dijkstra($graph, 0, 9);
+    }
+    public function customShow($result, $data)
+    {
+        
     }
 }
