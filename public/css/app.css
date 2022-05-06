@@ -11297,7 +11297,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 .number1 {
   top: 600px;
-  left: 200px;
+  left: 220px;
 }
 
 .number2 {
@@ -11378,12 +11378,12 @@ input[type=number]::-webkit-inner-spin-button {
   }
 
   .number1 {
-    top: 210px;
+    top: 230px;
     left: 30px;
   }
 
   .number2 {
-    top: 270px;
+    top: 280px;
     left: 100px;
   }
 
@@ -11393,7 +11393,7 @@ input[type=number]::-webkit-inner-spin-button {
   }
 
   .number4 {
-    top: 220px;
+    top: 235px;
     left: 170px;
   }
 
@@ -11403,12 +11403,12 @@ input[type=number]::-webkit-inner-spin-button {
   }
 
   .number6 {
-    top: 170px;
+    top: 180px;
     left: 210px;
   }
 
   .number7 {
-    top: 175px;
+    top: 185px;
     left: 275px;
   }
 
@@ -11418,8 +11418,8 @@ input[type=number]::-webkit-inner-spin-button {
   }
 
   .number9 {
-    top: 120px;
-    left: 220px;
+    top: 130px;
+    left: 230px;
   }
 
   .number10 {
@@ -11438,7 +11438,7 @@ input[type=number]::-webkit-inner-spin-button {
   }
 
   .number13 {
-    top: 40px;
+    top: 50px;
     left: 170px;
   }
 
@@ -11449,11 +11449,11 @@ input[type=number]::-webkit-inner-spin-button {
   }
 
   .img {
-    height: 320px;
-    width: 320px;
+    height: 340px;
+    width: 340px;
   }
 
   .card-body {
-    padding-left: 10px;
+    padding-left: 1px;
   }
 }
