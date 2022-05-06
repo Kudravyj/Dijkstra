@@ -6,3 +6,119 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .number10, .number11, .number11, .number12, .number13{
+    position: absolute;
+    width: 35px;
+}
+.number1{
+    top: 600px; left: 200px;
+}
+.number2{
+    top: 670px; left: 380px;
+}
+.number3{
+    top: 520px; left: 400px;
+}
+.number4{
+    top: 610px; left: 550px;
+}
+.number5{
+    top: 660px; left: 680px;
+}
+.number6{
+    top: 500px; left: 650px;
+}
+.number7{
+    top: 470px; left: 810px;
+}
+.number8{
+    top: 430px; left: 500px;
+}
+.number9{
+    top: 320px; left: 680px;
+}
+.number10{
+    top: 280px; left: 420px;
+}
+.number11{
+    top: 340px; left: 270px;
+}
+.number12{
+    top: 235px; left: 680px;
+}
+.number13{
+    top: 160px; left: 500px;
+}
+
+.img {
+    height: 800px;
+  }
+
+.our{
+    margin-left: 10%;
+}
+@media only screen and (max-width: 600px){
+
+.our{
+    margin-left: 0px;
+}
+.card-body{
+    padding: 0;
+}
+.number1{
+    top: 210px; left: 30px;
+}
+.number2{
+    top: 270px; left: 100px;
+}
+.number3{
+    top: 200px; left: 100px;
+}
+.number4{
+    top: 220px; left: 170px;
+}
+.number5{
+    top: 255px; left: 220px;
+}
+.number6{
+    top: 170px; left: 210px;
+}
+.number7{
+    top: 175px; left: 275px;
+}
+.number8{
+    top: 160px; left: 160px;
+}
+.number9{
+    top: 120px; left: 220px;
+}
+.number10{
+    top: 95px; left: 125px;
+}
+.number11{
+    top: 130px; left: 75px;
+}
+.number12{
+    top: 80px; left: 210px;
+}
+.number13{
+    top: 40px; left: 170px;
+}
+.number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .number10, .number11, .number11, .number12, .number13{
+    position: absolute;
+    width: 30px;
+    height: 20px;
+}
+
+.img {
+    height: 320px;
+    width: 320px;
+  }
+.card-body{
+    padding-left: 10px;
+}
+}
