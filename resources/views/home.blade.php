@@ -1,31 +1,34 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+<section class="Profil">
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-body">
+                            <div style="margin-left: 10%">
+                                <img src="/svg/project.svg" alt="" style="height: 800px;">
+                            <p >Add new Invoice</p>
+                            </div>
+                            <div style="">
 
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <img src="svg/project.svg" alt="">
+                            </div>
+                        </div>
+                        <hr class="m-2">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <form action="{{ url('/search') }}" class="form-inline my-2 my-lg-0 d-flex p-3" type="get">
+                                    <input class="form-control mr-sm-2" type="search" name='query' placeholder="Find Invoice">
+                                    <button class="btn btn-outline-light my-2 m-3">search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-
-                <table>
-                    <tr>
-                        <th>Count</th>
-                        <th>kilometre</th>
-
-                    </tr>
-                
-                    <tr>
-                        <td>hello</td>
-                        <td>{{ $result[1] }}</td>
-                    </tr>
-                
-                </table>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 @endsection
