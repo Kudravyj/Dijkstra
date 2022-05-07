@@ -23,5 +23,3 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/custom', [App\Http\Controllers\algorithm::class, 'custom']);
-
-Route::get('/custom/show', [App\Http\Controllers\algorithm::class, 'customShow']);

@@ -125,8 +125,4 @@ class algorithm extends Controller
         );
         return Dijkstra($graph, 0, 9, $data);
     }
-    public function customShow($result, $data)
-    {
-        
-    }
 }
