@@ -11368,7 +11368,17 @@ input[type=number]::-webkit-inner-spin-button {
   margin-left: 10%;
 }
 
+.text {
+  padding: 30px;
+  width: 500px;
+}
+
 @media only screen and (max-width: 600px) {
+  .text {
+    padding: 15px;
+    width: 350px;
+  }
+
   .our {
     margin-left: 0px;
   }
