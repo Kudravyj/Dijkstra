@@ -92,7 +92,7 @@ class algorithm extends Controller
 
             return $minIndex;
         }
-        function Dijkstra($graph, $source, $columns){
+        function Dijkstra($graph, $source, $columns, $data){
             $INT_MAX = 0x7FFFFFFF;
             $result = array();
             $resultSet = array();
@@ -110,7 +110,7 @@ class algorithm extends Controller
                     if (!$resultSet[$v] && $graph[$u][$v] && $result[$u] != $INT_MAX && $result[$u] + $graph[$u][$v] < $result[$v])
                         $result[$v] = $result[$u] + $graph[$u][$v];
             }
-            return view('custom/custom', compact('result'));
+            return view('custom/custom', compact('result', 'data'));
         }
         $graph = array(
             array(0, $data['number2'], 0, $data['number1'], 0, 0, 0, 0, 0),
@@ -123,7 +123,7 @@ class algorithm extends Controller
             array(0, 0, 0, 0, $data['number8'], $data['number9'], $data['number10'], 0, $data['number12']),
             array(0, 0, 0, 0, 0, 0, $data['number13'], $data['number12'], 0)
         );
-        return Dijkstra($graph, 0, 9);
+        return Dijkstra($graph, 0, 9, $data);
     }
     public function customShow($result, $data)
     {
