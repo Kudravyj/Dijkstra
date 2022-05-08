@@ -11374,6 +11374,10 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 @media only screen and (max-width: 600px) {
+  input[type=number]::-webkit-inner-spin-button {
+    font-size: 24px;
+  }
+
   .text {
     padding: 15px;
     width: 350px;
@@ -11455,7 +11459,7 @@ input[type=number]::-webkit-inner-spin-button {
   .number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .number10, .number11, .number11, .number12, .number13 {
     position: absolute;
     width: 30px;
-    height: 20px;
+    height: 25px;
   }
 
   .img {
